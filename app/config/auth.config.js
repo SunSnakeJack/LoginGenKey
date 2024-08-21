@@ -1,3 +1,3 @@
 module.exports = {
-    secret: "gomes-secret-key"
+    secret: "sufeeyan-secret-key"
 };

@@ -26,7 +26,7 @@ db.sequelize.sync({ force: false }).then(() => {
     console.log("Database sync...");
 });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log("Server running on port " + PORT);
 });
